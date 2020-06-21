@@ -15,8 +15,8 @@ require (
 	h12.io/socks v1.0.0
 )
 
-replace v2ray.com/core => /opt/go/src/github.com/mellow-io/v2ray-core
+replace v2ray.com/core => github.com/mellow-io/v2ray-core
 
-replace github.com/eycorsican/go-tun2socks => /opt/go/src/github.com/mellow-io/go-tun2socks
+replace github.com/eycorsican/go-tun2socks => github.com/mellow-io/go-tun2socks
 
 go 1.13
